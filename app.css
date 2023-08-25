@@ -1,0 +1,42 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  text-decoration: underline;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: antiquewhite;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#delete {
+  background-color: #f44336;
+}
+
+#todoList,
+#todo-input {
+  display: grid;
+  grid-template-columns: 25rem 15rem 10rem;
+  column-gap: 15px;
+  row-gap: 5px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
